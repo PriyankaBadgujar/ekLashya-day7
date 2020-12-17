@@ -14,6 +14,10 @@
         var x=document.getElementById("d").value;
         document.getElementById("d").value=Math.cos(x);
     }
+if(val=="tan"){
+        var x=document.getElementById("d").value;
+        document.getElementById("d").value=Math.tan(x);
+    }
    
     if(val=="sqrt"){
         var x=document.getElementById("d").value;
@@ -181,7 +185,7 @@ function equal(){
     
         <input type="button" class="button mathButtons" value="sin" onclick='scientific("sin")'>
         <input type="button" class="button mathButtons" value="cos" onclick='scientific("cos")'>
-        
+        <input type="button" class="button mathButtons" value="tan" onclick='scientific("tan")'>
         <input type="button" class="button mathButtons" value="sqrt" onclick='scientific("sqrt")'>
        
         <input type="button"  class="button mathButtons" id="clearButton" class="button" value="C" onclick='cancle("")'>
